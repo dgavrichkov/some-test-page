@@ -1,0 +1,15 @@
+.topbar{
+   width: 100%;
+   background-color: transparentize($topDark, .1);
+
+}
+.topbar__container{
+   // width: $desktopWidth;
+   width: $descLayoutWidth;
+   margin: 0 auto;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 100px;
+}

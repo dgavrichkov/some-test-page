@@ -3,10 +3,31 @@
 @import 'utils/reset.scss';
 @import 'utils/fonts.scss';
 
-
+//файлы блоков
+@import 'modules/header.scss';
+@import 'modules/topbar.scss';
 @import 'modules/logo.scss';
 @import 'modules/navigation.scss';
 
-body{
+
+body {
    font-family: $mainFont;
+}
+
+.container {
+   width: 100%;
+   max-width: $templateWidth;
+   margin: 0 auto;
+   position: relative;
+   @media screen and (max-width: $smDesktopWidth) {
+      max-width: tableWidth;
+   }
+
+   @media screen and (max-width: $tableWidth) {
+      max-width: phoneWidth;
+   }
+
+   @media screen and (max-width: $phoneWidth) {
+      max-width: smPhoneWidth;
+   }
 }

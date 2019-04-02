@@ -1,12 +1,17 @@
 .navigation{
    font-family: 'LatoSemibold', Helvetica, Arial, sans-serif;
-   background: $mainColorLight;
+   // background: $mainColorLight;
 }
 .navigation__list{
    display: flex;
+
+}
+.navigation__item:not(:last-child){
+   padding: 0 15px;
 }
 .navigation__item a{
    color: $mainFontColor;
+   font-size: 13px;
    &:hover, &:active{
       color: $accentColor;
    }

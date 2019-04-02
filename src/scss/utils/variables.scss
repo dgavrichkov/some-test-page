@@ -1,8 +1,9 @@
 // colors
-$mainColor: #252631;
+$mainColor: rgb(37, 38, 49);
 $mainColorLight: #3d4050;
 $accentColor: #3e9cdc;
 $accentColorDarkest: #286690;
+$topDark: #12121e;
 
 $templateWidth: 1920px;
 // width
@@ -15,3 +16,6 @@ $smPhoneWidth            : 320px;
 $mainFont: 'LatoRegular', Helvetica, Arial, sans-serif;
 $mainFontSize: 18px;
 $mainFontColor: #fff;
+
+//other sizes
+$descLayoutWidth: 1170px;

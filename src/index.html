@@ -6,22 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LOREMIPSUM</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <header class="header">
+  <header class="header container">
     <section class="topbar">
-      <h1 class="topbar__logo logo">Loremipsum.<span class="logo--accent">NET</span></h1>
-      <nav class="topbar__navigation navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link">Бизнес</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">Цены</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link">Оформить заказ</a></li>
-        </ul>
-      </nav>
+      <div class="topbar__container">
+        <h1 class="topbar__logo logo">Loremipsum.<span class="logo--accent">NET</span></h1>
+        <nav class="topbar__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">Бизнес</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Цены</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Оформить заказ</a></li>
+          </ul>
+        </nav>
+      </div>
     </section>
     <section class="header__content firstscreen">
       <h2 class="firstscreen__title"><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h2>
@@ -44,13 +47,38 @@
     <h2>Оформление <span>заказа</span></h2>
     <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
     <ul class="workflow">
-      <li class="workflow__item">Lorem ipsum dolor
-        sit amet</li>
-      <li class="workflow__item">Сonsecteturadipiscing elit</li>
-      <li class="workflow__item">Sed do eiusmod tempor</li>
-      <li class="workflow__item">Esse cillum dolore
-        eu fugiat</li>
-      <li class="workflow__item">Excepteur sint occaecat cupidatat non proident</li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="fas fa-search"></i>
+        </div>
+        Lorem ipsum dolor
+        sit amet
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="fas fa-percent"></i>
+        </div>
+        Сonsecteturadipiscing elit
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-file-alt"></i>
+        </div>
+        Sed do eiusmod tempor
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-envelope"></i>
+        </div>
+        Esse cillum dolore
+        eu fugiat
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-money-bill-alt"></i>
+        </div>
+        Excepteur sint occaecat cupidatat non proident
+      </li>
     </ul>
     <form action="" class="content__form orderform">
       <div class="orderform__item">
@@ -75,7 +103,10 @@
       </div>
       <div class="orderform__item">
         <label for="file">
-          <div class="orderform__fileload">Прикрепить файл</div>
+          <div class="orderform__fileload">
+            <i class="far fa-file-alt"></i>
+            Прикрепить файл
+          </div>
         </label>
         <input style="visibility: hidden" type="file" name="" id="file" placeholder="Прикрепить файл">
       </div>

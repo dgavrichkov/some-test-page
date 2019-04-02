@@ -29,7 +29,16 @@ module.exports = {
             test: /\.(png|jpg|svg|gif)$/,
             loader: 'file-loader',
             options: {
-               name: '[name].[ext]'
+               name: '[name].[ext]',
+               outputPath: 'assets/img'
+            }
+         },
+         {
+            test: /\.(eot|ttf|woff|woff2)$/,
+            loader: 'file-loader',
+            options: {
+               name: '[name].[ext]',
+               outputPath: 'assets/fonts'
             }
          },
          {
@@ -94,9 +103,14 @@ module.exports = {
          template: `${PATHS.src}/index.html`,
          filename: './index.html'
       }),
-      new CopyWebpackPlugin([{
+      new CopyWebpackPlugin([
+         {
             from: `${PATHS.src}/img`,
             to: `${PATHS.assets}img`
+         },
+         {
+            from: `${PATHS.src}/fonts`,
+            to: `${PATHS.assets}fonts`
          },
          {
             from: `${PATHS.src}/static`,

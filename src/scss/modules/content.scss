@@ -1,0 +1,10 @@
+
+.content__title{
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content__title span{
+   color: $accentColor;
+}

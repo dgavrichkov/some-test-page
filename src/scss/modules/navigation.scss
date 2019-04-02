@@ -1,0 +1,13 @@
+.navigation{
+   font-family: 'LatoSemibold', Helvetica, Arial, sans-serif;
+   background: $mainColorLight;
+}
+.navigation__list{
+   display: flex;
+}
+.navigation__item a{
+   color: $mainFontColor;
+   &:hover, &:active{
+      color: $accentColor;
+   }
+}

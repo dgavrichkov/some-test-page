@@ -1,0 +1,10 @@
+.logo{
+   font-family: 'LatoHeavy', Helvetica, Arial, sans-serif;
+   color: $mainFontColor;
+   text-transform: uppercase;
+
+   background: $mainColorLight;
+}
+.logo--accent{
+   color: $accentColor;
+}

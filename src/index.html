@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LOREMIPSUM</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
   <header class="header">
     <section class="topbar">
-      <h1 class="topbar__logo logo">Loremipsum.<span>NET</span></h1>
+      <h1 class="topbar__logo logo">Loremipsum.<span class="logo--accent">NET</span></h1>
       <nav class="topbar__navigation navigation">
         <ul class="navigation__list">
           <li class="navigation__item"><a href="#" class="navigation__link">Бизнес</a></li>
@@ -73,8 +74,10 @@
         <input type="range" name="" id="" style="width: 770px; display: block;">
       </div>
       <div class="orderform__item">
-        <label for="file">Вжух</label>
-        <input type="file" name="" id="file" placeholder="Прикрепить файл">
+        <label for="file">
+          <div class="orderform__fileload">Прикрепить файл</div>
+        </label>
+        <input style="visibility: hidden" type="file" name="" id="file" placeholder="Прикрепить файл">
       </div>
       <div class="orderform__item">
         <button type="submit">Отправить</button>

@@ -12,9 +12,9 @@
 
 <body>
 
-  <header class="header container">
+  <header class="header">
     <section class="topbar">
-      <div class="topbar__container">
+      <div class="topbar__container container">
         <h1 class="topbar__logo logo">Loremipsum.<span class="logo--accent">NET</span></h1>
         <nav class="topbar__navigation navigation">
           <ul class="navigation__list">
@@ -26,8 +26,9 @@
         </nav>
       </div>
     </section>
-    <section class="header__content firstscreen">
-      <h2 class="firstscreen__title"><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h2>
+    <section class="header__content firstscreen container">
+      <h2 class="firstscreen__title"><span>Lorem ipsum</span> dolor sit amet <br>consectetur <span>adipiscing</span>
+      </h2>
       <div class="firstscreen__content">
         <p class="firstscreen__desc">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
         <ul class="firstscreen__list">
@@ -126,9 +127,19 @@
       </ul>
     </section>
     <section class="contacts">
-      <ul>
-        <li>info@ipsum228.com</li>
-        <li>Мы вконтакте</li>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <div class="contacts__icon">
+            <i class="far fa-envelope"></i>
+          </div>
+          info@ipsum228.com
+        </li>
+        <li class="contacts__item">
+          <div class="contacts__icon">
+            <i class="far fa-envelope"></i>
+          </div>
+          Мы вконтакте
+        </li>
       </ul>
     </section>
   </footer>

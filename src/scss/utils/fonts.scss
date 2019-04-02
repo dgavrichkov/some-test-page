@@ -23,7 +23,7 @@
 }
 @font-face {
    font-family: 'LatoSemibold';
-   src: local('Lato Semibold'), local('Lato-Semibold'), url('/fonts/latosemibold.woff2') format('woff2'), url('/fonts/latosemibold.woff') format('woff'), url('/fonts/latolight.ttf') format('truetype');
+   src: local('Lato Semibold'), local('Lato-Semibold'), url('/fonts/latosemibold.woff2') format('woff2'), url('/fonts/latosemibold.woff') format('woff'), url('/fonts/latosemibold.ttf') format('truetype');
    font-weight: 300;
    font-style: normal;
 }
@@ -42,7 +42,7 @@
 }
 
 @font-face {
-   font-family: 'Lato';
+   font-family: 'LatoBlack';
    src: local('Lato Black'), local('Lato-Black'), url('/fonts/latoblack.woff2') format('woff2'), url('/fonts/latoblack.woff') format('woff'), url('/fonts/latoblack.ttf') format('truetype');
    font-weight: 900;
    font-style: normal;

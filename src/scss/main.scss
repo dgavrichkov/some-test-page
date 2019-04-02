@@ -8,6 +8,7 @@
 @import 'modules/topbar.scss';
 @import 'modules/logo.scss';
 @import 'modules/navigation.scss';
+@import 'modules/firstscreen.scss';
 
 
 body {
@@ -16,7 +17,7 @@ body {
 
 .container {
    width: 100%;
-   max-width: $templateWidth;
+   max-width: $descLayoutWidth;
    margin: 0 auto;
    position: relative;
    @media screen and (max-width: $smDesktopWidth) {

@@ -1,8 +1,11 @@
 .content{
    background-color: $mainColor;
-
+   background-image: url('../img/mainback.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
    padding-top: 120px;
    padding-bottom: 140px;
+   position: relative;
 }
 .content__title{
    text-transform: uppercase;

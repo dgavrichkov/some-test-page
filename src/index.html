@@ -93,26 +93,26 @@
         </select>
       </div>
       <div class="orderform__item">
-        <input type="email" name="email" id="" placeholder="Ваш e-mail">
+        <input class="orderform__input"  type="email" name="email" id="" placeholder="Ваш e-mail">
       </div>
       <div class="orderform__item">
-        <input type="text" name="username" id="" placeholder="Ваше имя">
+        <input class="orderform__input" type="text" name="username" id="" placeholder="Ваше имя">
       </div>
-      <div class="orderform__item">
+      <div class="orderform__item range">
         <label for="">Sed ut perspiciatis, unde omnis iste natus</label>
         <input type="range" name="" id="" style="width: 770px; display: block;">
       </div>
-      <div class="orderform__item">
+      <div class="orderform__item orderform__fileload fileload">
         <label for="file">
-          <div class="orderform__fileload">
-            <i class="far fa-file-alt"></i>
+          <div class="fileload__button" tabindex="0">
+            <div class="fileload__icon"><i class="far fa-file-alt"></i></div>
             Прикрепить файл
           </div>
         </label>
-        <input style="visibility: hidden" type="file" name="" id="file" placeholder="Прикрепить файл">
+        <input class="common--hidden" type="file" name="" id="file" placeholder="Прикрепить файл">
       </div>
       <div class="orderform__item">
-        <button type="submit">Отправить</button>
+        <button class="orderform__submit" type="submit">Отправить</button>
       </div>
     </form>
   </main>

@@ -1,0 +1,25 @@
+.fileload input{
+   display: none;
+}
+.fileload__button{
+   border-radius: 5px;
+   background-color: $mainFontColor;
+   color: $colorFontDark;
+   text-transform: uppercase;
+   border: 2px solid $mainColor;
+   font-size: 15px;
+   font-family: $semiFont;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+   &:active, &:hover{
+      border-color: $accentColor;
+   }
+}
+.fileload__icon{
+   margin-right: 10px;
+}

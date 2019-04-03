@@ -3,6 +3,7 @@
 @import 'utils/reset.scss';
 @import 'utils/fonts.scss';
 @import 'utils/grid.scss';
+@import 'utils/visibility-hidden.scss';
 
 //файлы блоков
 @import 'modules/header.scss';
@@ -14,6 +15,8 @@
 @import 'modules/workflow.scss';
 @import 'modules/orderform.scss';
 @import 'modules/select.scss';
+@import 'modules/range.scss';
+@import 'modules/fileload.scss';
 @import 'modules/footer.scss';
 @import 'modules/payments.scss';
 @import 'modules/contacts.scss';

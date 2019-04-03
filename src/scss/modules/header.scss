@@ -3,4 +3,8 @@
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+
+   @media screen and (max-width: $smDesktopWidth) {
+      // background-position: 10% 0;
+   }
 }

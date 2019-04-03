@@ -1,0 +1,19 @@
+.contacts{
+   justify-content: flex-end;
+}
+.contacts__list{
+   display: flex;
+}
+.contacts__item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.contacts__icon{
+   margin-right: 10px;
+   color: $accentColor;
+   font-size: 15px;
+}
+.contacts__item:not(:last-child){
+   margin-right: 40px;
+}

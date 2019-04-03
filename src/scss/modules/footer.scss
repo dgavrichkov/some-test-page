@@ -1,0 +1,22 @@
+.footer{
+   background-color: $mainColorLight;
+   color: $mainFontColor;
+   font-size: 13px;
+}
+.footer__container{
+   display: flex;
+   min-height: 80px;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__item{
+   width: 33.3%;
+   display: flex;
+   height: 18px;
+}
+.footer__item:not(:last-child){
+   border-right: 1px solid $mainFontColor;
+}
+.footer__copy{
+   align-items: center;
+}

@@ -1,0 +1,17 @@
+.payments{
+   justify-content: center;
+}
+.payments__list{
+   display: flex;
+}
+.payments__item{
+   display: flex;
+   align-items: center;
+   line-height: 13px;
+}
+.payments__item:not(:last-child){
+   margin-right: 20px;
+}
+.payments__icon{
+   margin-right: 10px;
+}

@@ -1,0 +1,33 @@
+.workflow{
+   color: $mainFontColor;
+
+   display: flex;
+   justify-content: space-around;
+   
+   margin-top: 75px;
+   margin-bottom: 95px;
+}
+
+
+.workflow__item{
+   width: 14%;
+   outline: 1px solid gold;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: center;
+
+}
+.workflow__icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 36px;
+   color: $mainFontColor;
+   background: $accentColor;
+   width: 90px;
+   height: 90px;
+   border: 5px solid $accentColorDarkest;
+   border-radius: 50%;
+}

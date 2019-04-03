@@ -1,5 +1,5 @@
 // colors
-$mainColor: #252631;
+$mainColor: #272733;
 $mainColorLight: #3d4050;
 $accentColor: #3e9cdc;
 $accentColorDarkest: #286690;
@@ -10,11 +10,19 @@ $colorFontDark: #2a2b30;
 
 $templateWidth: 1920px;
 // width
-$desktopWidth            : 1280px;
-$smDesktopWidth          : 980px;
-$tableWidth              : 768px;
-$phoneWidth              : 480px;
-$smPhoneWidth            : 320px;
+$desktopWidth: 1280px;
+$smDesktopWidth: 980px;
+$tableWidth: 768px;
+$smTableWidth: 576px;           
+$phoneWidth: 480px;
+$smPhoneWidth: 320px;
+
+// other width for grid, maybe
+$size-sm: 540px;
+$size-md: 720px;
+$size-lg: 960px;
+$size-xl: 1140px;
+
 // main font 
 $mainFont: 'LatoRegular', Helvetica, Arial, sans-serif;
 $boldFont: 'LatoBold', Helvetica, Arial, sans-serif;

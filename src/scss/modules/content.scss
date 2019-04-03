@@ -1,10 +1,28 @@
+.content{
+   background-color: $mainColor;
 
+   padding-top: 120px;
+   padding-bottom: 140px;
+}
 .content__title{
    text-transform: uppercase;
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 36px;
+   font-family: $heavyFont;
+   color: $mainFontColor;
+
+   margin-bottom: 25px;
 }
-.content__title span{
+.content__title b{
    color: $accentColor;
+   font-weight: normal;
+}
+
+.content__desc{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: transparentize($mainFontColor, .4);
 }

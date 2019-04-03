@@ -2,6 +2,7 @@
 @import 'utils/variables.scss';
 @import 'utils/reset.scss';
 @import 'utils/fonts.scss';
+@import 'utils/grid.scss';
 
 //файлы блоков
 @import 'modules/header.scss';
@@ -10,26 +11,11 @@
 @import 'modules/navigation.scss';
 @import 'modules/firstscreen.scss';
 @import 'modules/content.scss';
+@import 'modules/workflow.scss';
+
 
 
 body {
    font-family: $mainFont;
 }
 
-.container {
-   width: 100%;
-   max-width: $descLayoutWidth;
-   margin: 0 auto;
-   position: relative;
-   @media screen and (max-width: $smDesktopWidth) {
-      max-width: tableWidth;
-   }
-
-   @media screen and (max-width: $tableWidth) {
-      max-width: phoneWidth;
-   }
-
-   @media screen and (max-width: $phoneWidth) {
-      max-width: smPhoneWidth;
-   }
-}

@@ -38,6 +38,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "simple-scrollbar": "^0.4.0",
     "vue": "^2.6.10"
   },
   "repository": {

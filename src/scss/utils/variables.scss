@@ -1,6 +1,8 @@
 // colors
 $mainColor: #272733;
 $mainColorLight: #3d4050;
+$mainFontColor: #fff;
+$lightColor: #fff;
 $accentColor: #3e9cdc;
 $accentColorDarkest: #286690;
 $topDark: #12121e;
@@ -30,7 +32,10 @@ $boldFont: 'LatoBold', Helvetica, Arial, sans-serif;
 $semiFont: 'LatoSemibold', Helvetica, Arial, sans-serif;
 $heavyFont: 'LatoHeavy', Helvetica, Arial, sans-serif;
 $mainFontSize: 18px;
-$mainFontColor: #fff;
+
 
 //other sizes
 $descLayoutWidth: 1170px;
+
+
+$transitionAll: all .2s ease-in-out;

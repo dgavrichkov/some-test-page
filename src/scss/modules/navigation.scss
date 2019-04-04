@@ -15,4 +15,5 @@
    &:hover, &:active{
       color: $accentColor;
    }
+   transition: $transitionAll;
 }

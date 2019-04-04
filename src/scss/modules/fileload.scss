@@ -15,7 +15,7 @@
    justify-content: center;
    align-items: center;
    cursor: pointer;
-
+   transition: $transitionAll;
    &:active, &:hover{
       border-color: $accentColor;
    }

@@ -1,4 +1,3 @@
-
 .select {
    // display: inline-block;
    // transform: translate(-50%, -50%);
@@ -92,31 +91,31 @@
    pointer-events: none;
    transform: translateY(-15px);
 }
-
-// .custom-options::-webkit-scrollbar-track {
-//    background-color: $mainColorLight;
-//    border-radius: 3px;
-// }
-// .custom-options::-webkit-scrollbar-button {
-//    width: 6px;
-//    height: 0px;
-// }
-// .custom-options::-webkit-scrollbar-thumb {
-//    -webkit-border-radius: 0px;
-//    border-radius: 3px;
-//    background-color: $accentColor;
-// }
-// .custom-options::-webkit-scrollbar-thumb:hover {
-//    background-color: $accentColor;
-// }
-// .custom-options::-webkit-resizer {
-//    width: 6px;
-//    height: 0px
-// }
-// .custom-options::-webkit-scrollbar {
-//    width: 6px;
-//    border-radius: 5px;
-// }
+// ********* просто вебкитовские скроллы ****************
+.custom-options::-webkit-scrollbar-track {
+   background-color: $mainColorLight;
+   border-radius: 3px;
+}
+.custom-options::-webkit-scrollbar-button {
+   width: 6px;
+   height: 0px;
+}
+.custom-options::-webkit-scrollbar-thumb {
+   -webkit-border-radius: 0px;
+   border-radius: 3px;
+   background-color: $accentColor;
+}
+.custom-options::-webkit-scrollbar-thumb:hover {
+   background-color: $accentColor;
+}
+.custom-options::-webkit-resizer {
+   width: 6px;
+   height: 0px
+}
+.custom-options::-webkit-scrollbar {
+   width: 6px;
+   border-radius: 5px;
+}
 
 
 .custom-select.opened .custom-options {
@@ -138,9 +137,7 @@
    transition: $transitionAll;
 }
 
-// .custom-option:first-of-type {
-//    border-radius: 4px 4px 0 0;
-// }
+
 
 .custom-option:last-of-type {
    border-bottom: 0;

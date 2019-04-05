@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;ie=edge">
+  <title>LOREMIPSUM</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link href="./assets/css/app.css" rel="stylesheet"></head>
+
+<body>
+  <header class="header">
+    <section class="topbar">
+      <div class="topbar__container container">
+        <h1 class="topbar__logo logo">Loremipsum.<span class="logo--accent">NET</span></h1>
+        <nav class="topbar__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">Бизнес</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Цены</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Оформить заказ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="header__content firstscreen container">
+      <h2 class="firstscreen__title"><span>Lorem ipsum</span> dolor sit amet <br>consectetur <span>adipiscing</span>
+      </h2>
+      <div class="firstscreen__content">
+        <p class="firstscreen__desc">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+        <ul class="firstscreen__list">
+          <li class="firstscreen__item">Totam rem aperiam eaque ipsa</li>
+          <li class="firstscreen__item">Sit voluptatem accusantium doloremque laudantium</li>
+          <li class="firstscreen__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+      </div>
+      <div class="firstscreen__interactive">
+        <a href="#" class="firstscreen__button firstscreen__button--order">Заказать</a>
+        <a href="#" class="firstscreen__button firstscreen__button--more">Подробнее</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="content">
+    <h2 class="content__title container"><span>Оформление</span>&nbsp<b>заказа</b></h2>
+    <p class="content__desc container">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+    <ul class="content__list workflow container">
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="fas fa-search"></i>
+        </div>
+        Lorem ipsum dolor
+        sit amet
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="fas fa-percent"></i>
+        </div>
+        Сonsecteturadipiscing elit
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-file-alt"></i>
+        </div>
+        Sed do eiusmod tempor
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-envelope"></i>
+        </div>
+        Esse cillum dolore
+        eu fugiat
+      </li>
+      <li class="workflow__item">
+        <div class="workflow__icon">
+          <i class="far fa-money-bill-alt"></i>
+        </div>
+        Excepteur sint occaecat<br> cupidatat non proident
+      </li>
+    </ul>
+    <form action="" class="content__form orderform container">
+      <div class="orderform__item">
+        <div class="select">
+          <select name="sources" id="sources" class="custom-select sources" placeholder="Выберите тип системы">
+            <option value="1">Sed ut perspiciatis</option>
+            <option value="2">Nemo enim ipsam</option>
+            <option value="3">Et harum quidem</option>
+            <option value="4">Temporibus autem</option>
+            <option value="5">Itaque earum rerum</option>
+          </select>
+        </div>
+      </div>
+      <div class="orderform__item">
+        <label class="common--hidden" for="email">E-mail</label>
+        <input class="orderform__input" type="email" name="email" id="email" placeholder="Ваш e-mail">
+      </div>
+      <div class="orderform__item">
+        <label class="common--hidden" for="name">Имя</label>
+        <input class="orderform__input" type="text" name="username" id="name" placeholder="Ваше имя">
+      </div>
+
+      <div class="orderform__item range">
+
+        <label class="range__value" for="range-value">
+          <span class="common--hidden">Значение слайдера</span>
+          <input class="range__value-input" type="text" id="range-value">
+        </label>
+
+        <div class="range__label">Sed ut perspiciatis, unde omnis iste natus</div>
+        <input class="range__slider" type="range" name="order-range" min="0" max="100" value="75" id="range">
+      </div>
+
+      <div class="orderform__item orderform__fileload fileload">
+        <label for="file">
+          <div class="fileload__button" tabindex="0">
+            <div class="fileload__icon"><i class="far fa-file-alt"></i></div>
+            Прикрепить файл
+          </div>
+        </label>
+        <input class="common--hidden" type="file" name="" id="file" placeholder="Прикрепить файл">
+      </div>
+      <div class="orderform__item">
+        <button class="orderform__submit" type="submit">Отправить</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <section class="footer__copy footer__item">© 2018 «LoremIpsum.net» Все права защищены.</section>
+      <section class="footer__payments payments footer__item">
+        <ul class="payments__list">
+          <li class="payments__item">
+            <div class="payments__icon">
+              <img height="15" src="assets/img/qiwi.png" alt="qiwi">
+            </div>
+            Qiwi wallet
+          </li>
+          <li class="payments__item">
+            <div class="payments__icon">
+              <img height="15" src="assets/img/yandex.png" alt="yandexmoney">
+            </div>
+            Yandex Money
+          </li>
+          <li class="payments__item">
+            <div class="payments__icon">
+              <img height="15" src="assets/img/webmoney.png" alt="webmoney">
+            </div>
+            Web Money
+          </li>
+        </ul>
+      </section>
+      <section class="footer__contacts contacts footer__item">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <div class="contacts__icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            info@ipsum228.com
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__icon">
+              <i class="fab fa-vk"></i>
+            </div>
+            Мы вконтакте
+          </li>
+        </ul>
+      </section>
+    </div>
+
+  </footer>
+<script type="text/javascript" src="./assets/js/app.js"></script></body>
+
+</html>

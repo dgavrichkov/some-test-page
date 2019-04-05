@@ -102,14 +102,18 @@
         <label class="common--hidden" for="name">Имя</label>
         <input class="orderform__input" type="text" name="username" id="name" placeholder="Ваше имя">
       </div>
+
       <div class="orderform__item range">
-        <label for="range-value">
+
+        <label class="range__value" for="range-value">
           <span class="common--hidden">Значение слайдера</span>
-          <input type="text" class="range__value" id="range-value">
+          <input class="range__value-input" type="text" id="range-value">
         </label>
-        <label for="">Sed ut perspiciatis, unde omnis iste natus</label>
-        <input class="range__slider" type="range" name="order-range" min="0" max="100" value="75" id="">
+
+        <div class="range__label">Sed ut perspiciatis, unde omnis iste natus</div>
+        <input class="range__slider" type="range" name="order-range" min="0" max="100" value="75" id="range">
       </div>
+
       <div class="orderform__item orderform__fileload fileload">
         <label for="file">
           <div class="fileload__button" tabindex="0">

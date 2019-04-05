@@ -50,9 +50,11 @@
 }
 .firstscreen__interactive{
    display: flex;
+   @media screen and (max-width: $phoneWidth) {
+      flex-direction: column;   
+   }
 }
 .firstscreen__button{
-
    text-transform: uppercase;
    color: $colorFontDark;
    border: 1px solid $colorFontDark;
@@ -69,5 +71,8 @@
       color: $mainFontColor;
       background: $accentColor;
       border-color: $mainFontColor;
+   }
+   @media screen and (max-width: $phoneWidth) {
+      margin-bottom: 25px;   
    }
 }

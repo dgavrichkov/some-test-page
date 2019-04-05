@@ -8,17 +8,26 @@
 
 .range__value{
    position: absolute;
-   background: transparent;
    right: 0;
    top: 0;
    width: 50px;
    height: 20px;
+}
+.range__value-input{
    color: $lightColor;
+   background: transparent;
+   width: 100%;
+   text-align: right;
+}
+.range__label{
+   display: flex;
+   align-items: flex-start;
 }
 .range__slider {
    -webkit-appearance: none;
    width: 100%;
    background: transparent;
+   // margin-top: 20px;
 }
 .range__slider:focus{
    outline: none;
@@ -102,7 +111,7 @@
    border: 3px solid $accentColorDarkest;
    background: $accentColor;
    cursor: pointer;
-   margin-bottom: -3px;
+   margin-bottom: -4px;
 }
 .range__slider:focus::-ms-fill-lower {
    background: $grayColor;

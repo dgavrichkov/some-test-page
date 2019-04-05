@@ -15,8 +15,10 @@
    @media screen and (max-width: $tableWidth) {
       max-width: $phoneWidth;
    }
-
    @media screen and (max-width: $phoneWidth) {
       max-width: $smPhoneWidth;
+   }
+   @media screen and (max-width: $smPhoneWidth) {
+      max-width: 280px;
    }
 }

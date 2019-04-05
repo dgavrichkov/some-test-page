@@ -15,5 +15,7 @@
    @media screen and (max-width: $tableWidth) {
       flex-direction: column;
       justify-content: space-around;
+      padding-top: 20px;
+      padding-bottom: 20px;
    }
 }

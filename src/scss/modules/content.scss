@@ -7,6 +7,9 @@
    padding-top: 120px;
    padding-bottom: 140px;
    position: relative;
+   @media screen and (max-width: $tableWidth) {
+      padding: 60px 0 30px;
+   }
 }
 .content__title{
    text-transform: uppercase;
@@ -16,8 +19,13 @@
    font-size: 36px;
    font-family: $heavyFont;
    color: $mainFontColor;
-
    margin-bottom: 25px;
+   @media screen and (max-width: $tableWidth) {
+      font-size: 32px;
+   }
+   @media screen and (max-width: $phoneWidth) {
+      font-size: 28px;
+   }
 }
 .content__title b{
    color: $accentColor;
@@ -29,4 +37,7 @@
    justify-content: center;
    align-items: center;
    color: transparentize($mainFontColor, .4);
+   @media screen and (max-width: $tableWidth) {
+      text-align: center;
+   }
 }

@@ -20,6 +20,9 @@
       font-size: 30px;
       line-height: 42px;
    }
+   @media screen and (max-width: $smPhoneWidth) {
+      font-size: 24px;
+   }
 }
 .firstscreen__title span{
    color: $accentColor;

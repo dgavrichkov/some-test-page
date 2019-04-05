@@ -32,7 +32,8 @@
       font-size: 16px;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      // align-items: center;
+      text-align: right;
 
       &:not(:last-child){
          margin-bottom: 25px;

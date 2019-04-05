@@ -4,7 +4,13 @@
 }
 .navigation__list{
    display: flex;
-
+   @media screen and (max-width: $smPhoneWidth) {
+      flex-wrap: wrap;
+      justify-content: center;  
+   }
+   @media screen and (max-width: $tableWidth) {
+     margin-top: 20px;
+   }
 }
 .navigation__item:not(:last-child){
    padding: 0 15px;

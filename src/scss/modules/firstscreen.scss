@@ -16,6 +16,10 @@
    font-size: 48px;
    line-height: 64px;
    margin-bottom: 70px;
+   @media screen and (max-width: $tableWidth) {
+      font-size: 30px;
+      line-height: 42px;
+   }
 }
 .firstscreen__title span{
    color: $accentColor;

@@ -5,6 +5,9 @@
    background-size: cover;
 
    @media screen and (max-width: $smDesktopWidth) {
-      // background-position: 10% 0;
+      background-position: 60% 0;
+   }
+   @media screen and (max-width: $tableWidth) {
+      background-position: 60% 0;
    }
 }

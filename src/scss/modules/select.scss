@@ -35,9 +35,13 @@
    font-size: 18px;
    color: $colorFontDark;
    background: $lightColor;
-   border-radius: 3px;
+   border: 2px solid $mainColor;
+   border-radius: 5px;
    cursor: pointer;
    height: 100%;
+   @media screen and (max-width: $smDesktopWidth) {
+      font-size: 14px;
+   }
 }
 
 .custom-select-trigger:after {
@@ -49,8 +53,8 @@
    top: 50%;
    right: 25px;
    margin-top: -3px;
-   border-bottom: 1px solid $colorFontDark;
-   border-right: 1px solid $colorFontDark;
+   border-bottom: 1px solid $mainColor;
+   border-right: 1px solid $mainColor;
    transform: rotate(45deg) translateY(-50%);
    transition: all .4s ease-in-out;
    transform-origin: 50% 0;

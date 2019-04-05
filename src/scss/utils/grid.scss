@@ -7,9 +7,11 @@
    position: relative;
 
    @media screen and (max-width: $descLayoutWidth) {
+      max-width: $smDesktopWidth;
+   }
+   @media screen and (max-width: $smDesktopWidth) {
       max-width: $tableWidth;
    }
-
    @media screen and (max-width: $tableWidth) {
       max-width: $phoneWidth;
    }

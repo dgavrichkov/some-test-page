@@ -73,14 +73,23 @@
    height: 100%;
    padding-left: 15px;
    font-size: 18px;
+   font-family: $mainFont;
+   color: $mainColor;
    border: 2px solid $mainColor;
    border-radius: 5px;
    transition: $transitionAll;
    &:active, &:hover{
       border-color: $accentColor;
    }
+   @media screen and (max-width: $smDesktopWidth) {
+      font-size: 14px;
+   }
 }
-
+.orderform__input::placeholder{
+   color: $mainColor;
+   opacity: 1;
+   font-weight: normal;
+}
 
 
 

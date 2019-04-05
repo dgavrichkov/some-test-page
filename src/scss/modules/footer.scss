@@ -8,15 +8,32 @@
    height: 80px;
    justify-content: space-between;
    align-items: center;
+   @media screen and (max-width: $tableWidth) {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 120px;
+   }
 }
 .footer__item{
    width: 33.3%;
    display: flex;
    height: 18px;
+   @media screen and (max-width: $tableWidth) {
+      width: 80%;
+   }
 }
 .footer__item:not(:last-child){
    border-right: 1px solid $mainFontColor;
+   @media screen and (max-width: $tableWidth) {
+      border-right: none;
+   }
 }
 .footer__copy{
    align-items: center;
+   
+   @media screen and (max-width: $tableWidth) {
+      text-align: center;
+      justify-content: center;
+   }
 }

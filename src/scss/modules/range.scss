@@ -1,8 +1,18 @@
 .range {
    color: $mainFontColor;
    display: flex;
+   position: relative;
    flex-direction: column;
    justify-content: space-between;
+}
+
+.range__value{
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 50px;
+   height: 20px;
+   color: $lightColor;
 }
 .range__slider {
    -webkit-appearance: none;

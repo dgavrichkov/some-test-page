@@ -84,6 +84,9 @@
 .orderform__item:not(:nth-of-type(3)),
 .orderform__item:not(:nth-of-type(6)) {
    margin-right: 30px;
+   @media screen and (max-width: $tableWidth) {
+      margin-right: 0;
+   }
 }
 
 .orderform__input {
